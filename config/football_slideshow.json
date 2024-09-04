@@ -1,0 +1,294 @@
+{
+  "log": {
+    "level_list": ["OFF", "INFO", "WARNING", "ERROR", "DEBUG"],
+    "level": "DEBUG"
+  },
+  "canvasId": "canvas",
+  "environment": {
+    "singlePlayer": true,
+    "desktop": true,
+    "mobile": false,
+    "client": false,
+    "server": false
+  },
+  "data": {
+    "folder": "",
+    "saveFileName": "micro_engine_save",
+    "format": "json",
+    "entityFileName": "entity",
+    "systemFileName": "system",
+    "select": {
+      "folder": "footballv400",
+      "subFolder": "feature",
+      "scene": "render01"
+    },
+    "selector": {
+      "folder": {
+        "list": ["footballv400"]
+      },
+      "subFolder": [
+        {
+          "folder": "footballv400",
+          "list": ["feature"]
+        }
+      ],
+      "scene": [
+        {
+          "folder": "footballv400/feature",
+          "list": ["render01", "render02"],
+          "interval": { "default": 5000, "render02": 20000 }
+        }
+      ]
+    }
+  },
+  "serverHost": "http://localhost:3001/",
+  "clientFeature": [
+    {
+      "id": "",
+      "description": "",
+      "isOn": false
+    }
+  ],
+  "gameDependency": [
+    {
+      "id": "canvas",
+      "isOn": true
+    },
+    {
+      "id": "editor_menu",
+      "isOn": false
+    },
+    {
+      "id": "scene_auto_loader",
+      "isOn": true
+    },
+    {
+      "id": "keyboard_log",
+      "isOn": true
+    }
+  ],
+  "engineDependency": [
+    {
+      "id": "logger",
+      "isOn": true
+    },
+    {
+      "id": "gameLoop",
+      "isOn": true
+    },
+    {
+      "id": "entityDataCache",
+      "isOn": true
+    },
+    {
+      "id": "entityCache",
+      "isOn": true
+    },
+    {
+      "id": "camera",
+      "isOn": false
+    },
+    {
+      "id": "eventSystem",
+      "isOn": true
+    },
+    {
+      "id": "startSystemCache",
+      "isOn": true
+    },
+    {
+      "id": "systemCache",
+      "isOn": true
+    },
+    {
+      "id": "sumSystemCache",
+      "isOn": true
+    },
+    {
+      "id": "dataLoader",
+      "isOn": true
+    },
+    {
+      "id": "renderer",
+      "isOn": true
+    },
+    {
+      "id": "input",
+      "isOn": true
+    },
+    {
+      "id": "rendererCache",
+      "isOn": true
+    },
+    {
+      "id": "tileMap",
+      "isOn": true
+    }
+  ],
+  "system": [
+    {
+      "id": "drawDirection",
+      "isOn": true
+    },
+    {
+      "id": "spriteRenderer",
+      "isOn": true
+    },
+    {
+      "id": "spriteRenderer_layer2",
+      "isOn": true
+    },
+    {
+      "id": "spriteRenderer_layer3",
+      "isOn": true
+    },
+    {
+      "id": "spriteRenderer_layer4",
+      "isOn": true
+    },
+    {
+      "id": "scoreRenderer",
+      "isOn": true
+    },
+    {
+      "id": "debugRenderer",
+      "isOn": true
+    },
+    {
+      "id": "playerStateRenderer",
+      "isOn": true
+    },
+    {
+      "id": "kinematics",
+      "isOn": true
+    },
+    {
+      "id": "ballDribble",
+      "isOn": true
+    },
+    {
+      "id": "collisionBoxRenderer",
+      "isOn": true
+    },
+    {
+      "id": "collisionBoxRenderer_layer2",
+      "isOn": true
+    },
+    {
+      "id": "sceneRenderer",
+      "isOn": true
+    },
+    {
+      "id": "sceneRenderer_layer2",
+      "isOn": true
+    },
+    {
+      "id": "sceneRenderer_layer3",
+      "isOn": true
+    },
+    {
+      "id": "debugRendererWithScaling",
+      "isOn": true
+    },
+    {
+      "id": "scoreRenderer",
+      "isOn": true
+    },
+    {
+      "id": "playerState",
+      "isOn": true
+    },
+    {
+      "id": "stepMovement",
+      "isOn": true
+    },
+    {
+      "id": "mapRenderer",
+      "isOn": true
+    },
+    {
+      "id": "playerMovement",
+      "isOn": true
+    },
+    {
+      "id": "ballMovement",
+      "isOn": true
+    },
+    {
+      "id": "spriteFlip",
+      "isOn": true
+    },
+    {
+      "id": "boxFlip",
+      "isOn": true
+    },
+    {
+      "id": "markers",
+      "isOn": true
+    },
+    {
+      "id": "playerBallCollision",
+      "isOn": true
+    },
+    {
+      "id": "limitMove",
+      "isOn": true
+    },
+    {
+      "id": "gameState",
+      "isOn": true
+    },
+    {
+      "id": "gameScore",
+      "isOn": true
+    },
+    {
+      "id": "ballGateCollision",
+      "isOn": true
+    },
+    {
+      "id": "ballFieldCollision",
+      "isOn": true
+    },
+    {
+      "id": "insideBoxCollision",
+      "isOn": true
+    },
+    {
+      "id": "spriteState",
+      "isOn": true
+    },
+    {
+      "id": "keyboardMapping",
+      "isOn": true
+    },
+    {
+      "id": "playerKick",
+      "isOn": true
+    },
+    {
+      "id": "mouseInput",
+      "isOn": true
+    },
+    {
+      "id": "boxColliderRenderer",
+      "isOn": true
+    },
+    {
+      "id": "boxColliderRendererWithScaling",
+      "isOn": true
+    },
+    {
+      "id": "canvasScaler",
+      "isOn": true
+    },
+    {
+      "id": "contentScalerTester",
+      "isOn": true
+    },
+    {
+      "id": "entityScaler",
+      "isOn": true
+    }
+  ]
+}

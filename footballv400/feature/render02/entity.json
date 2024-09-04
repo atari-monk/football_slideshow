@@ -1,0 +1,142 @@
+{
+  "canvas": {
+    "canvasScale": {
+      "scaleFactor": {
+        "x": 1,
+        "y": 1
+      }
+    }
+  },
+  "debugUI": {
+    "id": "debugUI",
+    "name": "debugUI",
+    "keyMap": {
+      "actions": [
+        {
+          "action": "toggleAnimation",
+          "key": "o"
+        }
+      ]
+    }
+  },
+  "player1": {
+    "id": "player1",
+    "name": "player1",
+    "transform": {
+      "position": { "x": 860, "y": 440 },
+      "scale": { "x": 1, "y": 1 },
+      "rotation": 0
+    },
+    "sprite": {
+      "spriteOffset": { "x": 0, "y": 0 },
+      "isFlipped": false,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 20,
+          "frameDuration": 0.05,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 1
+        },
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 17,
+          "frameDuration": 0.5,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 1
+        }
+      ],
+      "state": "idle"
+    }
+  },
+  "player2": {
+    "id": "player2",
+    "name": "player2",
+    "transform": {
+      "position": { "x": 1060, "y": 440 },
+      "scale": { "x": 1, "y": 1 },
+      "rotation": 0
+    },
+    "sprite": {
+      "spriteOffset": { "x": 0, "y": 0 },
+      "isFlipped": false,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 20,
+          "frameDuration": 0.05,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 0
+        },
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 17,
+          "frameDuration": 0.5,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 0
+        }
+      ],
+      "state": "idle"
+    }
+  },
+  "player3": {
+    "id": "player3",
+    "name": "player3",
+    "transform": {
+      "position": { "x": 860, "y": 640 },
+      "scale": { "x": 1, "y": 1 },
+      "rotation": 0
+    },
+    "sprite": {
+      "spriteOffset": { "x": 0, "y": 0 },
+      "isFlipped": false,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 20,
+          "frameDuration": 0.05,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 1
+        },
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 17,
+          "frameDuration": 0.5,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 1
+        }
+      ],
+      "state": "idle"
+    }
+  },
+  "player4": {
+    "id": "player4",
+    "name": "player4",
+    "transform": {
+      "position": { "x": 1060, "y": 640 },
+      "scale": { "x": 1, "y": 1 },
+      "rotation": 0
+    },
+    "sprite": {
+      "spriteOffset": { "x": 0, "y": 0 },
+      "isFlipped": true,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 20,
+          "frameDuration": 0.05,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 0
+        },
+        {
+          "imagePath": "./images/red_player_test.png",
+          "frameCount": 17,
+          "frameDuration": 0.5,
+          "frameSize": { "x": 80, "y": 160 },
+          "animationType": 0
+        }
+      ],
+      "state": "idle"
+    }
+  }
+}

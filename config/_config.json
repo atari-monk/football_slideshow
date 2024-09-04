@@ -1,0 +1,6 @@
+{
+  "config_folder": "config",
+  "config_format": "json",
+  "config_list": ["football_slideshow"],
+  "config": "football_slideshow"
+}

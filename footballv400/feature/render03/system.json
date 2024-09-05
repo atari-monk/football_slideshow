@@ -1,0 +1,20 @@
+[
+  {
+    "nr": 1,
+    "system": "canvasScaler",
+    "entity": ["canvas"],
+    "cache": "startSystemCache",
+    "name": "Canvas Scaler",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 3,
+    "system": "sceneRenderer",
+    "name": "Scene Renderer",
+    "entity": ["field"],
+    "cache": "rendererCache",
+    "version": "4.0.0",
+    "isOn": true
+  }
+]

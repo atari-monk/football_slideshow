@@ -35,7 +35,7 @@
       "scene": [
         {
           "folder": "footballv400/feature",
-          "list": ["render01", "render02"],
+          "list": ["render01", "render02", "render03"],
           "interval": { "default": 5000, "render02": 30000 },
           "pressKey": {
             "render02": [

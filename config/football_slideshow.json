@@ -36,11 +36,11 @@
         {
           "folder": "footballv400/feature",
           "list": ["render01", "render02", "render03"],
-          "interval": { "default": 5000, "render02": 30000 },
+          "interval": { "default": 5000, "render02": 20000, "render03": 9000 },
           "pressKey": {
             "render02": [
-              { "scene": "render02", "after": 3000, "key": "o" },
-              { "scene": "render02", "after": 27000, "key": "o" }
+              { "scene": "render02", "after": 2000, "key": "o" },
+              { "scene": "render02", "after": 18000, "key": "o" }
             ]
           }
         }

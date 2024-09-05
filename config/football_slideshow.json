@@ -35,17 +35,18 @@
       "scene": [
         {
           "folder": "footballv400/feature",
-          "list": ["render01", "render02", "render03"],
+          "list": ["render01", "render02", "render03", "render04"],
           "interval": {
             "default": 5000,
-            "render01": 4000,
-            "render02": 15000,
-            "render03": 12000
+            "render01": 20000,
+            "render02": 20000,
+            "render03": 5000,
+            "render04": 10000
           },
           "pressKey": {
-            "render02": [
-              { "scene": "render02", "after": 2000, "key": "o" },
-              { "scene": "render02", "after": 13000, "key": "o" }
+            "render01": [
+              { "scene": "render01", "after": 2000, "key": "o" },
+              { "scene": "render01", "after": 18000, "key": "o" }
             ]
           }
         }
@@ -137,6 +138,10 @@
     }
   ],
   "system": [
+    {
+      "id": "aiMovement",
+      "isOn": true
+    },
     {
       "id": "drawDirection",
       "isOn": true

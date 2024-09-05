@@ -2,17 +2,17 @@
   {
     "nr": 1,
     "system": "canvasScaler",
-    "name": "Canvas Scaler",
     "entity": ["canvas"],
     "cache": "startSystemCache",
+    "name": "Canvas Scaler",
     "version": "1.0.0",
     "isOn": true
   },
   {
-    "nr": 2,
+    "nr": 3,
     "system": "keyboardMapping",
     "name": "Keyboard Mapping",
-    "entity": ["debugUI"],
+    "entity": ["player1"],
     "cache": "startSystemCache",
     "version": "1.0.0",
     "isOn": true
@@ -21,13 +21,54 @@
     "nr": 3,
     "system": "sceneRenderer",
     "name": "Scene Renderer",
-    "entity": ["player1", "player2", "player3", "player4"],
+    "entity": ["player1"],
     "cache": "rendererCache",
     "version": "4.0.0",
-    "isOn": true,
-    "features": {
-      "keys": true,
-      "animation": 0
-    }
+    "isOn": true
+  },
+  {
+    "nr": 6,
+    "system": "playerMovement",
+    "name": "Player Movement",
+    "entity": ["player1"],
+    "cache": "startSystemCache",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 7,
+    "system": "kinematics",
+    "name": "Kinematics",
+    "entity": ["player1"],
+    "cache": "systemCache",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 4,
+    "system": "spriteState",
+    "name": "Sprite State",
+    "entity": ["player1"],
+    "cache": "startSystemCache",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 5,
+    "system": "spriteFlip",
+    "name": "Sprite Flip",
+    "entity": ["ball", "player1"],
+    "cache": "startSystemCache",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 5,
+    "system": "aiMovement",
+    "name": "Ai Movement",
+    "entity": ["player1"],
+    "cache": "systemCache",
+    "version": "1.0.0",
+    "isOn": true
   }
 ]

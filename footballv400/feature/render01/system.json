@@ -10,14 +10,24 @@
   },
   {
     "nr": 2,
+    "system": "keyboardMapping",
+    "name": "Keyboard Mapping",
+    "entity": ["debugUI"],
+    "cache": "startSystemCache",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 3,
     "system": "sceneRenderer",
     "name": "Scene Renderer",
-    "entity": ["field"],
+    "entity": ["player1", "player2", "player3", "player4"],
     "cache": "rendererCache",
     "version": "4.0.0",
     "isOn": true,
     "features": {
-      "keys": false
+      "keys": true,
+      "animation": 0
     }
   }
 ]

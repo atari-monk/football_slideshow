@@ -1,0 +1,47 @@
+[
+  {
+    "nr": 1,
+    "system": "canvasScaler",
+    "entity": ["canvas"],
+    "cache": "startSystemCache",
+    "name": "Canvas Scaler",
+    "version": "1.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 2,
+    "system": "sceneRenderer",
+    "name": "Scene Renderer",
+    "entity": ["field"],
+    "cache": "rendererCache",
+    "version": "4.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 3,
+    "system": "sceneRenderer_layer2",
+    "name": "Scene Renderer",
+    "entity": ["leftGate", "rightGate"],
+    "cache": "rendererCache",
+    "version": "4.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 4,
+    "system": "sceneRenderer_layer3",
+    "name": "Scene Renderer",
+    "entity": ["player1", "player2", "ball"],
+    "cache": "rendererCache",
+    "version": "4.0.0",
+    "isOn": true
+  },
+  {
+    "nr": 2,
+    "system": "scoreRenderer",
+    "name": "Score Renderer",
+    "entity": ["gameScore"],
+    "cache": "rendererCache",
+    "version": "2.0.0",
+    "isOn": true
+  }
+]

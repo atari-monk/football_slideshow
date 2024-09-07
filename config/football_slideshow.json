@@ -20,7 +20,7 @@
     "select": {
       "folder": "footballv400",
       "subFolder": "feature",
-      "scene": "render01"
+      "scene": "player01"
     },
     "selector": {
       "folder": {
@@ -35,19 +35,23 @@
       "scene": [
         {
           "folder": "footballv400/feature",
-          "list": ["render01", "render02", "render03", "render04"],
+          "list": [
+            "player01",
+            "player02",
+            "football01",
+            "football02",
+            "football03",
+            "football04",
+            "football05",
+            "football06",
+            "football07"
+          ],
           "interval": {
-            "default": 5000,
-            "render01": 20000,
-            "render02": 20000,
-            "render03": 5000,
-            "render04": 10000
+            "default": 1300,
+            "player01": 2000
           },
           "pressKey": {
-            "render01": [
-              { "scene": "render01", "after": 2000, "key": "o" },
-              { "scene": "render01", "after": 18000, "key": "o" }
-            ]
+            "player01": [{ "scene": "player01", "after": 500, "key": "o" }]
           }
         }
       ]

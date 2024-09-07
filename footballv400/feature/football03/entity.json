@@ -1,0 +1,291 @@
+{
+  "canvas": {
+    "canvasScale": {
+      "scaleFactor": {
+        "x": 1,
+        "y": 1
+      }
+    }
+  },
+  "field": {
+    "id": "field",
+    "name": "field",
+    "transform": {
+      "position": {
+        "x": 960,
+        "y": 540
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "rotation": 0
+    },
+    "boxCollider": [
+      {
+        "id": "top_left",
+        "size": {
+          "x": 90,
+          "y": 325
+        },
+        "center": {
+          "x": 0,
+          "y": 90
+        },
+        "isTrigger": false,
+        "material": {
+          "dynamicFriction": 0.8,
+          "staticFriction": 0.2,
+          "bounciness": 0
+        },
+        "color": "#000000",
+        "enableRender": true,
+        "origin": {
+          "isTopLeft": true,
+          "isCenter": false
+        },
+        "style": {
+          "isFill": true,
+          "isStroke": true,
+          "strokeColor": "white",
+          "lineWidth": 5
+        }
+      },
+      {
+        "id": "bottom_left",
+        "size": {
+          "x": 90,
+          "y": 325
+        },
+        "center": {
+          "x": 0,
+          "y": 665
+        },
+        "isTrigger": false,
+        "material": {
+          "dynamicFriction": 0.8,
+          "staticFriction": 0.2,
+          "bounciness": 0
+        },
+        "color": "#000000",
+        "enableRender": true,
+        "origin": {
+          "isTopLeft": true,
+          "isCenter": false
+        },
+        "style": {
+          "isFill": true,
+          "isStroke": true,
+          "strokeColor": "white",
+          "lineWidth": 5
+        }
+      },
+      {
+        "id": "top_right",
+        "size": {
+          "x": 90,
+          "y": 325
+        },
+        "center": {
+          "x": 1830,
+          "y": 90
+        },
+        "isTrigger": false,
+        "material": {
+          "dynamicFriction": 0.8,
+          "staticFriction": 0.2,
+          "bounciness": 0
+        },
+        "color": "#000000",
+        "enableRender": true,
+        "origin": {
+          "isTopLeft": true,
+          "isCenter": false
+        },
+        "style": {
+          "isFill": true,
+          "isStroke": true,
+          "strokeColor": "white",
+          "lineWidth": 5
+        }
+      },
+      {
+        "id": "bottom_right",
+        "size": {
+          "x": 90,
+          "y": 325
+        },
+        "center": {
+          "x": 1830,
+          "y": 665
+        },
+        "isTrigger": false,
+        "material": {
+          "dynamicFriction": 0.8,
+          "staticFriction": 0.2,
+          "bounciness": 0
+        },
+        "color": "#000000",
+        "enableRender": true,
+        "origin": {
+          "isTopLeft": true,
+          "isCenter": false
+        },
+        "style": {
+          "isFill": true,
+          "isStroke": true,
+          "strokeColor": "white",
+          "lineWidth": 5
+        }
+      },
+      {
+        "id": "top",
+        "size": {
+          "x": 1920,
+          "y": 90
+        },
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "isTrigger": false,
+        "material": {
+          "dynamicFriction": 0.8,
+          "staticFriction": 0.2,
+          "bounciness": 0
+        },
+        "color": "#000000",
+        "enableRender": true,
+        "origin": {
+          "isTopLeft": true,
+          "isCenter": false
+        },
+        "style": {
+          "isFill": true,
+          "isStroke": true,
+          "strokeColor": "white",
+          "lineWidth": 5
+        }
+      },
+      {
+        "id": "bottom",
+        "size": {
+          "x": 1920,
+          "y": 90
+        },
+        "center": {
+          "x": 0,
+          "y": 990
+        },
+        "isTrigger": false,
+        "material": {
+          "dynamicFriction": 0.8,
+          "staticFriction": 0.2,
+          "bounciness": 0
+        },
+        "color": "#000000",
+        "enableRender": true,
+        "origin": {
+          "isTopLeft": true,
+          "isCenter": false
+        },
+        "style": {
+          "isFill": true,
+          "isStroke": true,
+          "strokeColor": "white",
+          "lineWidth": 5
+        }
+      }
+    ],
+    "sprite": {
+      "spriteOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "isFlipped": false,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/grass_big.jpg",
+          "frameCount": 1,
+          "frameDuration": 1,
+          "frameSize": {
+            "x": 1920,
+            "y": 1080
+          },
+          "animationType": 1
+        }
+      ],
+      "state": "idle"
+    }
+  },
+  "leftGate": {
+    "id": "leftGate",
+    "name": "leftGate",
+    "transform": {
+      "position": {
+        "x": -10,
+        "y": 540
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "rotation": 0
+    },
+    "sprite": {
+      "spriteOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "isFlipped": false,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/goalPost_left.png",
+          "frameCount": 1,
+          "frameDuration": 1,
+          "frameSize": {
+            "x": 222,
+            "y": 286
+          },
+          "animationType": 1
+        }
+      ],
+      "state": "idle"
+    }
+  },
+  "rightGate": {
+    "id": "rightGate",
+    "name": "rightGate",
+    "transform": {
+      "position": {
+        "x": 1930,
+        "y": 540
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "rotation": 0
+    },
+    "sprite": {
+      "spriteOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "isFlipped": false,
+      "spriteAnimation": [
+        {
+          "imagePath": "./images/goalPost.png",
+          "frameCount": 1,
+          "frameDuration": 1,
+          "frameSize": {
+            "x": 222,
+            "y": 286
+          },
+          "animationType": 1
+        }
+      ],
+      "state": "idle"
+    }
+  }
+}
